@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_loading">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="SUCCESS"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:paddingTop="15dp"
+        android:textColor="#58D68D"
+        android:textSize="26sp"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:src="@drawable/checklist"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:text="Pembayaran Terverifikasi\nTransaksi berhasil!"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="20sp"/>
+    <Button
+        android:id="@+id/btnAcc"
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:background="@drawable/round_bg"
+        android:gravity="center"
+        android:text="OK"
+        android:onClick="payOK"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+</LinearLayout>

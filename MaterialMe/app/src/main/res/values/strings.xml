@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Material Me</string>
+    <string name="title_placeholder">Title</string>
+    <string name="news_label">News</string>
+    <string name="sports_info_placeholder">Here is some news</string>
+    <string name="sports_image">Sports Image</string>
+    <string name="filler_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+        vitae semper quam. In a metus ut nisl pharetra hendrerit et a leo.</string>
+    <string-array name="sports_titles">
+        <item>Badminton</item>
+        <item>Bowling</item>
+        <item>Cycling</item>
+        <item>Golf</item>
+
+    </string-array>
+
+    <string-array name="sports_info">
+        <item>Here is some Badminton news!</item>
+        <item>Here is some Bowling news!</item>
+        <item>Here is some Cycling news!</item>
+        <item>Here is some Golf news!</item>
+
+    </string-array>
+
+    <array name="sports_images">
+        <item>@drawable/img_badminton</item>
+        <item>@drawable/img_bowling</item>
+        <item>@drawable/img_cycling</item>
+        <item>@drawable/img_golf</item>
+
+    </array>
+</resources>

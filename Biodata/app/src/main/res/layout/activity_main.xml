@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/nim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="213dp"
+        android:layout_marginBottom="619dp"
+        android:text="NIM : A11.2019.11823" />
+
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="600dp"
+        android:text="NAMA : MUHAMMAD KHARIRRUSHOFA" />
+
+    <TextView
+        android:id="@+id/addr"
+        android:layout_width="337dp"
+        android:layout_height="53dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="545dp"
+        android:text="ALAMAT : JL.DURIAN DALAM SRONDOL III/40 SEMARANG" />
+
+    <TextView
+        android:id="@+id/tlp"
+        android:layout_width="232dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="121dp"
+        android:layout_marginBottom="541dp"
+        android:text="TELEPON : 0812668677XX" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="384dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-31dp"
+        android:layout_marginBottom="521dp"
+        android:text="EMAIL : 111201911823@mhs.dinus.ac.id" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="179dp"
+        android:layout_height="208dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="118dp"
+        android:layout_marginBottom="308dp"
+        app:srcCompat="@drawable/foto" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="151dp"
+        android:layout_marginBottom="235dp"
+        android:onClick="next"
+        android:text="CV KU" />
+</RelativeLayout>

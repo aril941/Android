@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Nav Drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Muhammad Kharirrushofa</string>
+    <string name="nav_header_subtitle">111201911823@mhs.dinus.ac.id</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="data_form">FORM DATA DIRI</string>
+    <string name="name">NAMA LENGKAP</string>
+    <string name="address">ALAMAT</string>
+    <string name="kota">"KOTA "</string>
+    <string name="date">TANGGAL LAHIR</string>
+    <string name="email">EMAIL</string>
+    <string name="jk">JENIS KELAMIN</string>
+    <string name="male">LAKI-LAKI</string>
+    <string name="female">PEREMPUAN</string>
+    <string name="hobby">HOBI</string>
+    <string name="reading">MEMBACA</string>
+    <string name="mancing">MEMANCING</string>
+    <string name="spd">BERSEPEDA</string>
+    <string name="menu_form">FORM DATA DIRI</string>
+</resources>

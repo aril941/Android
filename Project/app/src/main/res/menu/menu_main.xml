@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/cc"
+        android:orderInCategory="100"
+        android:title="Call Center"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/sms"
+        android:orderInCategory="100"
+        android:title="SMS/Chat to Seller"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/maps"
+        android:orderInCategory="100"
+        android:title="Lokasi Toko"
+        app:showAsAction="never" />
+</menu>

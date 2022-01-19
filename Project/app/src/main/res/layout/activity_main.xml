@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:background="@color/background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                android:drawableLeft="@drawable/ic_search"
+                android:gravity="left|center_vertical"
+                android:text="Cari produk..."
+                android:textAllCaps="false"
+                android:layout_marginRight="15dp"
+                android:textColor="#777C75"/>
+            <Button
+                android:id="@+id/cart"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="2dp"
+                android:onClick="user"
+                android:clickable="true"
+                android:paddingLeft="4dp"
+                app:icon="@drawable/ic_troli" />
+
+            <Button
+                android:id="@+id/user"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="10dp"
+                android:onClick="user"
+                android:clickable="true"
+                android:paddingLeft="4dp"
+                app:icon="@drawable/ic_user_set" />
+
+            <Button
+                android:layout_width="32dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                app:icon="@drawable/ic_menu"
+                android:onClick="popup"
+                android:clickable="true"
+                android:paddingLeft="2dp"
+                android:layout_marginRight="10dp"
+                style="?android:attr/borderlessButtonStyle"/>
+
+        </LinearLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="123dp"
+        android:background="@drawable/wave"/>
+    <LinearLayout
+        android:layout_marginTop="-120dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@drawable/slider">
+
+        <com.smarteist.autoimageslider.SliderView
+            android:id="@+id/slider"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:sliderAnimationDuration="250"
+            app:sliderAutoCycleDirection="back_and_forth"
+            app:sliderAutoCycleEnabled="true"
+            app:sliderScrollTimeInSec="5"
+            app:sliderStartAutoCycle="true"></com.smarteist.autoimageslider.SliderView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            tools:listitem="@layout/card_item"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+</LinearLayout>
